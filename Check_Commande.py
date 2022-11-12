@@ -4,4 +4,4 @@ def commande(command):
     except :
         print("erreur")
     if command == 1 :
-        print("good")
+        Zmap()

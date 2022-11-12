@@ -7,4 +7,7 @@ def titlebar(title) -> None:
 
 
 def clear() -> None:
-    os.system("clear")
+    try :
+        os.system("cls")
+    except :
+        os.system("cls")
