@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Change Directory">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/theh8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/ZMAP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP/Installation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/Execute_Commande.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Little Update">
+      <change afterPath="$PROJECT_DIR$/HELP/README_Help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP/TEST.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commande.py" beforeDir="false" afterPath="$PROJECT_DIR$/Check_Commande.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Console.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Installation/Install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Installation/Install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Gui_Designer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Gui_Designer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theh8\PycharmProjects\No-Name\HELP" />
       <recent name="C:\Users\theh8\PycharmProjects\No-Name\Installation" />
     </key>
   </component>
@@ -163,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668261186620</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Little Update">
+      <created>1668269710894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668269710894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +186,7 @@
     <MESSAGE value="Add Install.sh" />
     <MESSAGE value="Add .idea for Pycharm" />
     <MESSAGE value="Change Directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Directory" />
+    <MESSAGE value="Little Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little Update" />
   </component>
 </project>

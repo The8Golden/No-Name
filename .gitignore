@@ -144,4 +144,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+README_Help.md
+TEST.md
 
