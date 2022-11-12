@@ -1,7 +1,8 @@
-from colorama import Fore, Back , Style , Cursor
+import Console
 
 class main():
     def __init__(self):
-        print("Rien")
+        Console()
+
 
 main()
