@@ -1,2 +1,2 @@
 1) Générer une liste d'ip avec un port spécifique
-2) A suivre ...
+2) ip info

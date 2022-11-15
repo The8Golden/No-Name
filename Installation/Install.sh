@@ -6,3 +6,4 @@ fi
 
 apt update -y
 apt upgrade -y
+pip install -y requests, colorama

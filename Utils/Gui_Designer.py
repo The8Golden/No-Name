@@ -10,4 +10,4 @@ def clear() -> None:
     try :
         os.system("cls")
     except :
-        os.system("cls")
+        os.system("clear")
