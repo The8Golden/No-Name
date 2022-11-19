@@ -1,0 +1,27 @@
+Index: 8.8.8.8.txt
+===================================================================
+diff --git a/8.8.8.8.txt b/8.8.8.8.txt
+--- a/8.8.8.8.txt	
++++ b/8.8.8.8.txt	
+@@ -1,9 +1,11 @@
+ 
+-            ip = 8.8.8.8
+-            Pays = 
+-            
+-            
+-            
+-            
+-            
+-            
+\ No newline at end of file
++ip = 8.8.8.8
++Pays = United States
++countryCode US
++Region = Virginia
++Ville = Ashburn
++Zone de Temp = America/New_York
++isp = Google LLC
++org = Google Public DNS
++as = AS15169 Google LLC
++             
+\ No newline at end of file
