@@ -10,7 +10,7 @@ def titlebar(title) -> None:
 def clear() -> None:
     try :
         os.system("cls")
-    except :
+    except Exception :
         os.system("clear")
 
 def erreur_base(text : str = "") -> str:
