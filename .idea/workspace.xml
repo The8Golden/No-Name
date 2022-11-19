@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Fix bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Execute_Commande.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Execute_Commande.py" afterDir="false" />
+    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Fix Clear">
       <change beforePath="$PROJECT_DIR$/Utils/Gui_Designer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Gui_Designer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/command.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/8.8.8.8.txt" beforeDir="false" />
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668881260461</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix Clear">
+      <created>1668881405914</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668881405914</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +254,7 @@
     <MESSAGE value="Fix Bug with directory" />
     <MESSAGE value="Update workspace for PyCharm" />
     <MESSAGE value="Fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug" />
+    <MESSAGE value="Fix Clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Clear" />
   </component>
 </project>

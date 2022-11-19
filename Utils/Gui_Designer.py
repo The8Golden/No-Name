@@ -8,10 +8,7 @@ def titlebar(title) -> None:
 
 
 def clear() -> None:
-    try :
-        os.system("cls")
-    except Exception :
-        os.system("clear")
+    os.system("clear")
 
 def erreur_base(text : str = "") -> str:
     print(Fore.RED)
