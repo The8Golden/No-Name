@@ -9,4 +9,7 @@ def commande(command):
     if command == 1:
         Utils.Execute_Commande.zmap()
     elif command == 2 :
-         Utils.Execute_Commande.ip()
+
+        check = Utils.Execute_Commande.ip()
+        if check != None :
+            print(check)

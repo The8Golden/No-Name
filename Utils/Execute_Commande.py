@@ -1,6 +1,6 @@
 import requests
 from os import system
-from Utils.Gui_Designer import clear
+from Utils.Gui_Designer import clear, erreur_base
 from Utils.FILE import file_exist
 from colorama import Fore
 
@@ -30,32 +30,25 @@ def help_command(number):
 def ip():
     ip = input( Fore.RED +"Merci d'entrer l'ip que vous voulez regarder :" + Fore.RESET)
     info = requests.get( f"http://ip-api.com/json/{ip}").json()
-    print(str(info["country"]))
-    print(info)
 
-    if file_exist(f"out/{ip}.txt") :
-       with open(f"{ip}.txt", "w") as files :
+    #print(info)                   #debug for dev
+
+    with open(f"out/ip_info/{ip}.txt", "w", encoding="utf-8" ) as files :
+        try :
             files.write(f"""
-            ip = {str(info["query"])}
-            Pays = 
-            
-            
-            
-            
-            
-            """)
-    else :
-        with open(f"out/{ip}.txt", "x") as files:
-            files.write(f"""
-             ip = {str(info["query"])}
-             Pays = 
-
-
-
-
-
+ip = {str(info["query"])}
+Pays = {str(info["country"])}
+countryCode {str(info["countryCode"])}
+Region = {str(info["regionName"])}
+Ville = {str(info["city"])}
+Zone de Temp = {str(info["timezone"])}
+isp = {str(info["isp"])}
+org = {str(info["org"])}
+as = {str(info["as"])}
              """)
-
-
-
+        except Exception:
+            clear()
+            erreur_base(f"Erreur pour écrire le fichier le fichier {ip}.txt ")
+        else:
+            return f"Le fichier a bien était créer ! {Fore.YELLOW}out/{ip}.txt{Fore.RESET}"
 
