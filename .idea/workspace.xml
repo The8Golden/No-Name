@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Big Update&#10;Add IP Info">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Execute_Commande.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Execute_Commande.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/FILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/FILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/Gui_Designer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Gui_Designer.py" afterDir="false" />
+    <list default="true" id="4c4cdcff-6e64-4ef4-ab0c-22cd972b835d" name="Changes" comment="Update workspace for PyCharm">
+      <change afterPath="$PROJECT_DIR$/out/ip_info/8.8.8.8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/8.8.8.8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668879531194</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fix Bug with directory">
+      <created>1668880894333</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668880894333</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update workspace for PyCharm">
+      <created>1668880992772</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668880992772</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +237,8 @@
     <MESSAGE value="Change Directory" />
     <MESSAGE value="Little Update" />
     <MESSAGE value="Big Update&#10;Add IP Info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Update&#10;Add IP Info" />
+    <MESSAGE value="Fix Bug with directory" />
+    <MESSAGE value="Update workspace for PyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace for PyCharm" />
   </component>
 </project>
