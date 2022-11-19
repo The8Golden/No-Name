@@ -1,3 +1,5 @@
+import os
+
 import requests
 from os import system
 from Utils.Gui_Designer import clear, erreur_base
@@ -33,7 +35,7 @@ def ip():
 
     #print(info)                   #debug for dev
 
-    with open(f"out/ip_info/{ip}.txt", "w", encoding="utf-8" ) as files :
+    with open(f"{os.getcwd()}/out/ip_info/{ip}.txt", "w", encoding="utf-8" ) as files :
         try :
             files.write(f"""
 ip = {str(info["query"])}
@@ -50,5 +52,5 @@ as = {str(info["as"])}
             clear()
             erreur_base(f"Erreur pour écrire le fichier le fichier {ip}.txt ")
         else:
-            return f"Le fichier a bien était créer ! {Fore.YELLOW}out/{ip}.txt{Fore.RESET}"
+            return f"Le fichier a bien était créer ! {Fore.YELLOW + os.getcwd()}out\\{ip}.txt{Fore.RESET}"
 
