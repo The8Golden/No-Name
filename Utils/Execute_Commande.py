@@ -1,7 +1,8 @@
 import requests
-import os
 from os import system
 from Utils.Gui_Designer import clear
+from Utils.FILE import file_exist
+from colorama import Fore
 
 def zmap():
     logo = open("./GUI/ZMAP.txt", "r", encoding="utf-8")
@@ -26,5 +27,35 @@ def help_command(number):
         case 3 :
             print("Fermer l'application ...")
 
-def ip(ip):
-    info = requests.request(f"http://ip-api.com/json/{ip}")
+def ip():
+    ip = input( Fore.RED +"Merci d'entrer l'ip que vous voulez regarder :" + Fore.RESET)
+    info = requests.get( f"http://ip-api.com/json/{ip}").json()
+    print(str(info["country"]))
+    print(info)
+
+    if file_exist(f"out/{ip}.txt") :
+       with open(f"{ip}.txt", "w") as files :
+            files.write(f"""
+            ip = {str(info["query"])}
+            Pays = 
+            
+            
+            
+            
+            
+            """)
+    else :
+        with open(f"out/{ip}.txt", "x") as files:
+            files.write(f"""
+             ip = {str(info["query"])}
+             Pays = 
+
+
+
+
+
+             """)
+
+
+
+

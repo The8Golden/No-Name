@@ -1,5 +1,5 @@
 import Utils.Execute_Commande
-
+from Utils.Execute_Commande import clear
 def commande(command):
 
     try :
@@ -9,4 +9,4 @@ def commande(command):
     if command == 1:
         Utils.Execute_Commande.zmap()
     elif command == 2 :
-         print(ip())
+         Utils.Execute_Commande.ip()
